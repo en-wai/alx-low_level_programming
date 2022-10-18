@@ -1,9 +1,9 @@
+#include "main.h"
 /*
  * File: 0-putchar.c
  * Auth: En-wai Asare
  */
 
-#include <main.h>
 
 /**
  * main - Prints out _putschar.
