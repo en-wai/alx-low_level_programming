@@ -1,5 +1,5 @@
 /*
- * File: 5-print_numbers.c
+ * File: 6-print_numberz.c
  * Auth: En-wai Asare
  */
 
