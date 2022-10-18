@@ -19,7 +19,7 @@ int main(void)
 		putchar((num % 10) + '0');
 
 	for (letter = 'a'; letter <= 'f'; letter++)
-		puthcar(letter);
+		putchar(letter);
 
 	putchar('\n');
 
