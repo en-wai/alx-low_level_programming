@@ -1,5 +1,5 @@
 /*
- * File: 7-print_tebahpla.c 
+ * File: 7-print_tebahpla.c
  * Auth: En-wai Asare
  */
 
@@ -15,9 +15,7 @@ int main(void)
 	char letter;
 
 	for (letter = 'z'; letter >= 'a'; letter--)
-	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		putchar(letter);
 	}
 	putchar('\n');
 	return (0);
