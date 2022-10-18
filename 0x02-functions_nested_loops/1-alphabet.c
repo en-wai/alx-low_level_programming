@@ -6,8 +6,8 @@
 
 
 /**
- * main - Prints out _putschar.
- *
+ * print_alphabet - Main entry point.
+ * Description: Function to print lowercase alphabets 0
  * Return: Always void.
  */
 void print_alphabet(void)
@@ -16,7 +16,7 @@ void print_alphabet(void)
 
 	while (letter <= 'z')
 	{
-		_putchar(letter <= 'z');
+		_putchar(letter);
 		letter++;
 	}
 	_putchar('\n');
