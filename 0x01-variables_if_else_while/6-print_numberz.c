@@ -1,0 +1,22 @@
+/*
+ * File: 5-print_numbers.c
+ * Auth: En-wai Asare
+ */
+
+#include <stdio.h>
+
+/**
+ * main - Prints numbers 0-10 using only putchar and no char variables.
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+	int num;
+
+	for (num = 0;  num < 10; num++)
+		putchar((num % 10) + '0');
+
+	printf("\n");
+	return (0);
+}
