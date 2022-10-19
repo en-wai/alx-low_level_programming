@@ -6,7 +6,7 @@
  *
  * Return: Number matrix
  */
-void times_table(int n)
+void times_table()
 {
 	int x, y, z;
 
