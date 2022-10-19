@@ -11,7 +11,7 @@
  *@c: received int value
  * Return: 1 if true and 0 if false.
  */
-_islower(int c)
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
