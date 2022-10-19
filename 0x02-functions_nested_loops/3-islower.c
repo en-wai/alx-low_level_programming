@@ -20,9 +20,9 @@ int _islower(int c)
 		/* refererence int c*/
 	if (c == 1)
 	{
-	return (1);
-	}
-	}
 	return (0);
+	}
+	}
+	return (1);
 }
 
