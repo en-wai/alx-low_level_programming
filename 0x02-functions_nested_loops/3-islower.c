@@ -11,16 +11,10 @@
  *@c: received int value
  * Return: 1 if true and 0 if false.
  */
-int _islower(int c)
+_islower(int c)
 {
-	int i = 'a';
-
-	for (i = 'a'; i <= 'z'; i++)
-	{
-		/* refererence int c*/
-	if (c == 1)
+	if (c >= 'a' && c <= 'z')
 		return (1);
 	else
 		return (0);
 }
-
