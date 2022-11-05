@@ -1,20 +1,17 @@
 #include "main.h"
 /**
- *_memset - fill a block of memory with a specific value
- *@s: starting address of memory to be filled
- *@b: the desired value
- *@n: number of bytes to be changed
- *
- *Return: changed array with new value for n bytes
+ * _puts_recursion - function like puts();
+ * @s: input
+ * Return: Always 0 (Success)
  */
-char *_memset(char *s, char b, unsigned int n)
+void _puts_recursion(char *s)
 {
-	int i = 0;
-
-	for (; n > 0; i++)
+	if (*s)
 	{
-		s[i] = b;
-		n--;
+		_putchar(*s);
+		_puts_recursion(s + 1);
 	}
-	return (s);
+
+	else
+		_putchar('\n');
 }
