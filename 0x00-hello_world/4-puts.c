@@ -1,4 +1,10 @@
+/**
+ * Filename: 4-puts.c
+ * Author: En-wai Asare
+ */
+
 #include <stdio.h>
+
 /**
  * main - Entry point
  * Return: Always 0 (Success)
