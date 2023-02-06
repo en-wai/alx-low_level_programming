@@ -9,13 +9,13 @@
 int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
+
 	i = 0;
 	d = 0;
 	n = 0;
 	len = 0;
 	f = 0;
 	digit = 0;
-
 	while (s[len] != '\0')
 		len++;
 	while (i < len && f == 0)
@@ -43,7 +43,7 @@ int _atoi(char *s)
  * main - multiplies two numbers
  * @argc: number of argument
  * @argv: array of argument
- * Return: 0 (Success), 1 (Error)		
+ * Return: 0 (Success), 1 (Error)
  */
 int main(int argc, char *argv[])
 {
