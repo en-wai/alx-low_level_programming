@@ -1,10 +1,3 @@
-/**
- * Filename: 4-puts.c
- * Author: En-wai Asare
- *
- * Description: Uses the puts() func to print string
- */
-
 #include <stdio.h>
 
 /**
