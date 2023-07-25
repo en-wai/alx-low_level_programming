@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints lowercase alphabets in reverse.
+ * main - Prints numbers spaced sith comma.
  *
  * Return: Always 0.
  */
